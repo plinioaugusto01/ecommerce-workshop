@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: INFRA_DEFINITION
+cloudProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infrastructure:
+- type: DIRECT_KUBERNETES
+  cloudProviderName: k8s_cluster_plinio
+  namespace: default
+  releaseName: release-${infra.kubernetes.infraId}
