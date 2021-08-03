@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: false
+password: gcpkms:plinio-gitaccesstoken
+url: https://github.com/plinioaugusto01/admin_workloads.git
+urlType: REPO
+username: plinioaugusto01
